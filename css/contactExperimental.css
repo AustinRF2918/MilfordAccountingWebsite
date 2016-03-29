@@ -1,0 +1,320 @@
+body {
+    background-image: url(../img/12894453_1269191209764963_1651782752_o.png);
+    overflow-x: hidden;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.entryBoxes
+{
+    margin-top: 80px;
+    color: white;
+}
+
+.form-control
+{
+    border: 2px white solid;
+    background: rgba(255, 255, 255, 0.7);
+    color: black !important;
+    margin-bottom: 20px;
+    border-radius: 0px;
+}
+
+::-webkit-placeholder
+{
+    color: #2C3539 !important;
+    text-transform: capitalize;
+}
+
+::-moz-placeholder
+{
+    color: #2C3539 !important;
+    text-transform: capitalize;
+}
+
+::-ms-placeholder 
+{
+    color: #2C3539 !important;
+    text-transform: capitalize;
+}
+
+::-o-placeholder
+{
+    color: #2C3539 !important;
+    text-transform: capitalize;
+}
+
+::placeholder 
+{
+    color: #2C3539 !important;
+    text-transform: capitalize;
+}
+
+input:focus::-ms-input-placeholder
+{
+    color: transparent !important;
+    text-transform: capitalize;
+}
+
+input:focus::-webkit-input-placeholder
+{
+    color: transparent !important;
+    text-transform: capitalize;
+}
+
+input:focus::-moz-input-placeholder
+{
+    color: transparent !important;
+    text-transform: capitalize;
+}
+
+input:focus::-ms-input-placeholder
+{
+    color: !important;
+    text-transform: capitalize;
+}
+
+textarea:focus::-ms-input-placeholder
+{
+    color: transparent !important;
+    text-transform: capitalize;
+}
+
+textarea:focus::-webkit-input-placeholder
+{
+    color: transparent !important;
+    text-transform: capitalize;
+}
+
+textarea:focus::-moz-input-placeholder
+{
+    color: transparent !important;
+    text-transform: capitalize;
+}
+
+textarea:focus::-ms-input-placeholder
+{
+    color: !important;
+    text-transform: capitalize;
+}
+
+.spacer 
+{
+    margin-bottom: 40px;
+}
+
+
+::placeholder-shown
+{
+
+    color: #2C3539 !important;
+    text-transform: capitalize;
+}
+
+
+
+
+
+@media (min-width: 768px)
+{
+    .entryBoxes
+    {
+        margin-top: 22vh;
+    }
+
+    .entryBoxes .row 
+    {
+
+    }
+
+    #contactForm 
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.invis 
+{
+    border-color: rgba(0,0,0,0);
+
+}
+
+#navigationData
+{
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    height: 10vh;
+}
+
+#navigationData .col-md-12
+{
+    padding: 0 !important;
+}
+
+#navigationData .col-xs-4
+{
+    cursor: hand;
+    cursor: pointer;
+}
+
+#navigationData .col-xs-4 
+{
+    background: black;
+    height: 10vh;
+    text-transform: uppercase;
+}
+
+#innerText a 
+{
+    margin-top: 2vh;
+    font-size: 1.5vh;
+    letter-spacing: 0.15em;
+    display: inline-block;
+}
+
+#navigationData .col-xs-4 a
+{ 
+    color: white;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#navigationData .col-xs-4 a:hover
+{
+    text-decoration: none;
+}
+
+#navigationData .col-xs-4 i 
+{
+     font-size: 4.5vh;
+}
+
+@media screen and (min-width:  768px)
+{
+    i {
+        margin-top: 1.5vh;
+    }
+}
+
+
+@media screen and (max-width: 993px)
+{
+    #navigationData .col-md-12
+       {
+           z-index: 6;
+           font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            background: url('../img/accountingStuff.jpg') no-repeat center center fixed;
+           -webkit-background-size: cover;
+           -moz-background-size: cover;
+           background-size: cover;
+           -o-background-size: cover;
+       }
+
+
+    #navigationData .col-xs-4 
+    {
+    background: rgba(0, 0, 0, 0.8);
+        height: 9.5vh; 
+    }
+    
+    #navigationData .col-md-4 a, i
+    {
+       margin-top: 1.125vh; 
+    }
+}
+
+.topDivider 
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.botDivider a
+{
+    margin-top: 0px !important;
+    padding-top: 0px;
+}
+
+.lightOnHover 
+{
+     -o-transition: .5s;
+     -ms-transition: .5s;
+     -moz-transition: .5s;
+     -webkit-transition: .5s;
+     transition: .5s;
+}
+
+.lightOnHover i
+{
+    color: rgba(128, 128, 128, 0.5);
+     -o-transition: .8s;
+     -ms-transition: .8s;
+     -moz-transition: .8s;
+     -webkit-transition: .8s;
+     transition: .8s;
+}
+
+.lightOnHover:hover
+{
+    background: rgba(0, 0, 0 ,0.95) !important;
+}
+
+.lightOnHover:hover i
+{
+    text-shadow: -1px 1px 1px #ffc, 1px -1px 1px #fff;
+     color: white !important;
+}
+
+.activeData i 
+{
+    font-size: 5vh !important;
+    color: white;
+}
+
+.activeDataNonHover i
+{
+    color: #333;
+}
+
+.btn
+{
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    border-color: white;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+}
+
+.btn:hover 
+{
+    background-color: white; 
+    color: black;
+}
