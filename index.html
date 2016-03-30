@@ -13,9 +13,11 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type = "text/css" rel = "stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/indexStyles.css" rel="stylesheet">
+    <link href="css/indexExperimental.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -30,79 +32,84 @@
 
 </head>
 <body>
-<div class = "headerData">
-    <div class="brand">
-        <h1><span>Milford Accounting</span></h1>
-    </div>
-
-    <div class="address-bar">
-        <h3><span>3481 Melrose Place | Milford, MI 90210 | 123.456.7890</span></h3>
-    </div>
-</div>
-    <!-- Navigation -->
-    <nav class="navbar navbar-default top-nav" role="navigation">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
+    <div class = "row" id = "bodyData">
+        <div class = "col-md-12 text-center">
+            <div class = "name">
+                <div class = "row">
+                    <div class = "col-sm-8 col-sm-offset-2">
+                        <span>
+                        <h1>Milford Accounting</h1>
+                        </span>
+                    </div>
+                </div>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav threeElement">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
+            <div class = "address">
+                <div class = "row">
+                    <div class = "col-sm-6 col-sm-offset-3">
+                        <span>
+                        <h3>3481 Melrose Place | Milford, MI 90210 | 123-456-7890</h3>
+                        </span>
+                    </div>
+                </div>
             </div>
-            <!-- /.navbar-collapse -->
-        <!-- /.container -->
-    </nav>
-
-    <div class="container">
-
-
-
+        </div>
     </div>
-    <!-- /.container -->
 
-        <div class = "navbar navbar-default navbar-fixed-bottom bottom-nav">
-                    <div class="col-lg-12 text-center">
-                        <div class = "footerData">
-                            <div class = "copyright">
-                                <ul class="nav navbar-nav oneElement">
-                                    <li>
-                                        <a></a>
-                                    </li>
-                                    <li>
-                                        <a>Copyright &copy; Milford Accounting 2016</a>
-                                    </li>
-                                    <li>
-                                        <a></a>
-                                    </li>
-                                </ul>
+    <div class = "row">
+        <div id = "navigationData">
+            <div class = "col-md-12">
+                <a href = "aboutExperiment.html" id = "aboutData">
+                <div class = "col-md-4 text-center topData lightOnHover" id = "navigationDataOne">
+                        <div class = "col-sm-12">
+                            <i class = "fa fa-4x fa-th-list"></i>
+                        </div>
+                        <div class = "col-sm-12 botDivider">
+                            <div id = "innerText">
+                                <a href="aboutExperiment.html">About</a>
                             </div>
                         </div>
+                </div>
+                </a>
+                <div class = "col-md-4 text-center topData lightOnHover activeData" id = "navigationDataTwo">
+                    <div class = "col-sm-12 topDivider">
+                        <i class = "fa fa-4x fa-home"></i>
                     </div>
+                    <div class = "col-sm-12 botDivider">
+                        <div id = "innerText">
+                            <a>Home</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-md-4 text-center botData lightOnHover" id = "navigationDataThree">
+                    <a href = "contactExperiment.html" id = "contactData">
+                    <div class = "col-sm-12 topDivider">
+                        <i class = "fa fa-4x fa-envelope"></i>
+                    </div>
+                    <div class = "col-sm-12 botDivider">
+                        <div id = "innerText">
+                            <a href="contactExperiment.html">Contact</a>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
         </div>
+    </div>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <div class = "row" id = "spaceData">
+        <div class = "col-md-6 text-center">
+        </div>
+        <div class = "col-md-6 text-center">
+        </div>
+    </div>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+    <div class = "row" id = "footerData">
+        <div class = "col-md-12 text-center">
+            <p>Copyright Milford Accounting, 2016</p>
+        </div>
+    </div>
+    <script src = "js/navCherries.js"></script>
+    <script src = "js/slide.js"></script>
 </body>
 
 </html>
