@@ -304,22 +304,44 @@ header .leftSide{
     min-height: 100vh;
 }
 
+@media (max-width: 667px)
+{
+    header .leftSide{
+        height: 600px;
+    }
+}
+
+.row {
+    width: 100vw;
+}
+
+.col-lg-12 
+{
+     width: 100vw;
+}
+
+@media (max-width: 667px)
+{
+    .col-md-6 
+    {
+    width: 100vw;
+    }
+}
+
+@media (min-width: 668px)
+{
+    .col-md-6 
+    {
+    }
+}
+
 header 
 {
     padding: 0px;
     background-color: white;
 }
 
-header .col-md-8{
-}
-
-#partTwo 
-{
-     padding: 0px;
-     background-color: white;
-}
-
-#partThree .col-md-4
+#partThree .col-sm-4
 {
     border: 2px solid white;
     background-color: black;
@@ -327,6 +349,31 @@ header .col-md-8{
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+#partThree .col-lg-12 
+{
+    padding: 0px;
+}
+
+#partThree .row
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#partThree h1 
+{
+    font-size: 4vw;
+}
+
+@media (max-width: 668px)
+{
+    #partThree h1 
+    {
+        font-size: 50px;
+    }
+    
 }
 
 #partThree button 
@@ -369,23 +416,6 @@ header
     padding-bottom: 0px !important;
 }
 
-#partTwo
-{
-    padding-bottom: 0px !important;
-}
-
-#partTwo .rightSide{
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 1em;
-    padding-top: 20vh;
-    z-index: 5;
-    background-image: url('../img/slide-3.jpg');
-    text-align: center;
-    background-size: cover;
-    color: var(--main-fg-color) !important;
-    min-height: 100vh;
-}
-
 #partThree h1 
 {
      text-align: center;
@@ -414,6 +444,11 @@ header
     min-height: 100vh;
 }
 
+@media (max-width: 667px)
+{
+    height: 600px !important;
+}
+
 .rightSide .content
 {
     text-align: left;
@@ -435,7 +470,13 @@ header
 }
 
 
-@media(min-width: 768px)
+.rightSide .content 
+{
+     padding-top: 200px;
+     padding-bottom: 200px;
+}
+
+@media(min-width: 668px)
 {
     header .container{
         padding-bottom: 100px;
@@ -443,7 +484,7 @@ header
 
     .rightSide .content 
     {
-        margin-top: 33vh;
+        padding-top: 25vh;
     }
 
     .leftSide .content 
