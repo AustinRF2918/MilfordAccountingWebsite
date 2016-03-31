@@ -31,6 +31,26 @@ hr {
     border-color: #999999;
 }
 
+#navigationData a
+{
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.5vh;
+    letter-spacing: 0.15em;
+
+}
+
+@media (min-width: 768px)
+{
+    #navigationData i 
+    {
+        margin-top: 1.125vh;
+        font-size: 4.5vh;
+    }
+
+    #navigationData .activeData
+    {
+    }
+}
 
 
 #bodyData 
@@ -41,16 +61,17 @@ hr {
 
 #navigationData
 {
-    overflow-y: hide;
+    width: 100vw;
     float: left;
     z-index: 900;
-    width: 100%;
+    width: 100vw !important;
     position: fixed;
-    background: rgba(0, 0, 0, 0.7);
 }
 
 #navigationData .col-md-12
 {
+    background: black !important;
+    width: 100vw;
     padding: 0 !important;
 }
 
@@ -103,19 +124,48 @@ hr {
     color: white;
 }
 
-#navigationData .col-xs-4 
+@media (min-height: 768px)
 {
-    background: black;
-    height: 10vh;
-    text-transform: uppercase;
+    #navigationData .col-xs-4 
+    {
+        height: 10vh;
+        text-transform: uppercase;
+    }
+
+    #navigationData .col-md-12
+    {
+        height: 10vh;
+    }
 }
 
-#innerText a 
+@media (max-height: 767px)
 {
+    #navigationData .col-xs-4 
+    {
+        height: 150px;
+        text-transform: uppercase;
+    }
+
+    #navigationdata .col-md-12
+    {
+         height: 150px;
+    }
+    
+    
+}
+
+
+#botDivider a 
+{
+    text-transform: center;
     margin-top: 2vh;
-    font-size: 1.5vh;
     letter-spacing: 0.15em;
     display: inline-block;
+}
+
+@media (max-height: 767px)
+{
+    margin-top: 0px;
 }
 
 #navigationData .col-xs-4 a
@@ -127,11 +177,6 @@ hr {
 #navigationData .col-xs-4 a:hover
 {
     text-decoration: none;
-}
-
-#navigationData .col-xs-4 i 
-{
-     font-size: 4.5vh;
 }
 
 #footerData
@@ -168,28 +213,12 @@ hr {
     }
 }
 
-@media screen and (min-width: 992px)
-{
-     #spaceData 
-        {
-            z-index: 6;
-            overflow: hidden;
-            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-            background: url('../img/accountingStuff.jpg') no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;
-        }
-}
-
-@media screen and (max-width: 993px)
+@media screen and (min-width: 768px)
 {
     #navigationData .col-md-12
        {
            z-index: 6;
            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-            background: url('../img/accountingStuff.jpg') no-repeat center center fixed;
            -webkit-background-size: cover;
            -moz-background-size: cover;
            background-size: cover;
@@ -218,21 +247,63 @@ hr {
         top: 5vh;
     }
 
+    .name h1
+    {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-height: 767px)
+{
+    #navigationData .col-md-12
+      {
+        z-index: 6;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+       }
+
     #navigationData .col-xs-4 
     {
-    background: rgba(0, 0, 0, 0.8);
-        height: 9.5vh; 
+        height: 60px; 
     }
     
     #navigationData .col-md-4 a, i
     {
        margin-top: 1.125vh; 
     }
+
+    #navigationData .col-md-12
+    {
+         height: 60px;
+    }
+
+    #navigationData a
+    {
+
+       text-transform: uppercase;
+    }
+    
+    #navigationData i
+    {
+        padding-top: 0px;
+        margin-top: 10px !important;
+    }
+
     .name h1
     {
         font-size: 40px;
     }
 
+    .fa
+    {
+         font-size: 30px !important;
+    }
+
+   
 }
 
 .topDivider 
@@ -279,7 +350,6 @@ hr {
 
 .activeData i 
 {
-    font-size: 5vh !important;
     color: white;
 }
 
@@ -317,6 +387,7 @@ header .leftSide{
 
 .col-lg-12 
 {
+    padding: 0px;
      width: 100vw;
 }
 
@@ -341,8 +412,15 @@ header
     background-color: white;
 }
 
+#navigationData i
+{
+    margin-top: 1.125vh;
+    font-size: 4.5vh;
+}
+
 #partThree .col-sm-4
 {
+    
     border: 2px solid white;
     background-color: black;
     padding-left: 30px;
@@ -371,7 +449,7 @@ header
 {
     #partThree h1 
     {
-        font-size: 50px;
+        font-size: 40px;
     }
     
 }

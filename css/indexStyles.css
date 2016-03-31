@@ -5,14 +5,17 @@
  */
 
 body {
-    overflow: hidden;
+    position: relative;
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     background: url('../../MilfordAccounting/IMG/library.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh !Important;
+    overflow-y: hidden;
 }
+
 
 h1,
 h2,
@@ -29,6 +32,11 @@ h6 {
 p {
     font-size: 1.25em;
     color: #000;
+}
+
+.col-md-12
+{
+    padding: 0px !important;
 }
 
 a{

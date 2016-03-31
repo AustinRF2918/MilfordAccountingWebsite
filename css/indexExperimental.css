@@ -94,6 +94,17 @@ hr {
     color: white;
 }
 
+.row
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-md-12
+{
+    padding: 0px;
+}
+
 #navigationData .col-md-4 
 {
     background: black;

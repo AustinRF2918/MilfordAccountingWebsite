@@ -187,6 +187,7 @@ hr {
     text-transform: uppercase;
 }
 
+
 #innerText a 
 {
     margin-top: 2vh;
@@ -289,7 +290,6 @@ hr {
 
 .activeData i 
 {
-    font-size: 5vh !important;
     color: white;
 }
 
