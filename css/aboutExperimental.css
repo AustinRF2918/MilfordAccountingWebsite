@@ -385,6 +385,11 @@ header .leftSide{
     width: 100vw;
 }
 
+header .row
+{
+    margin: 0px;
+}
+
 .col-lg-12 
 {
     padding: 0px;
