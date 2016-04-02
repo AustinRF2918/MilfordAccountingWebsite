@@ -19,4 +19,9 @@ $(document).ready(function()
         $('#navigationDataTwo').removeClass("activeDataNonHover");
     });
 
+    $('#modalDatei').mousedown(function(){
+        $('#modalDatei').remove();
+    });
+
 });
+
