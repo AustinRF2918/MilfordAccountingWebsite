@@ -377,15 +377,34 @@ header .leftSide{
     text-align: center;
     background-size: cover;
     color: var(--main-fg-color) !important;
-    min-height: 100vh;
 }
 
-@media (max-width: 667px)
+@media (max-width: 769px)
 {
     header .leftSide{
-        height: 600px;
+        height: 950px !important;
+    }
+
+    #partThree
+    {
+         height: 950px !important;
+    }
+
+
+}
+
+@media (min-width: 770px)
+{
+    header .leftSide{
+         height: 100vh !important;
+    }
+
+    #partThree
+    {
+        height: 100vh !important;
     }
 }
+
 
 .row {
     width: 100vw;
@@ -402,7 +421,7 @@ header .row
      width: 100vw;
 }
 
-@media (max-width: 667px)
+@media (max-width: 767px)
 {
     .col-md-6 
     {
@@ -410,7 +429,7 @@ header .row
     }
 }
 
-@media (min-width: 668px)
+@media (min-width: 768px)
 {
     .col-md-6 
     {
@@ -456,7 +475,7 @@ header
     font-size: 4vw;
 }
 
-@media (max-width: 668px)
+@media (max-width: 766px)
 {
     #partThree h1 
     {
@@ -530,12 +549,11 @@ header
     text-align: center;
     background-size: cover;
     color: white !important;
-    min-height: 100vh;
 }
 
-@media (max-width: 667px)
+@media (max-width: 767px)
 {
-    height: 600px !important;
+    height: 800px !important;
 }
 
 .rightSide .content
